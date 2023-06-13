@@ -1,0 +1,78 @@
+.navbar{
+    //background-color: #21272F;
+    //background-color: #161B22;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    padding-top: 2vh;
+    color: white;
+    width: auto;
+    position: sticky;
+    z-index: 1;
+    @media screen and (max-width: 700px) {
+        position: relative;
+    }
+    
+    .navbar_container{
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        @media screen and (max-width: 700px) {
+            justify-content: center;
+        }
+
+        .left_container{
+            img{
+                width: 8vw;
+                cursor: pointer;
+                @media screen and (max-width: 700px) {
+                    width: 30vw;
+                }
+            }
+        }
+        
+        .right_container{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            gap: 4vw;
+            font-family: 'Gloock', serif;
+            color: #05e4b3;
+            .nav_items{
+                font-size: 1.2vw;
+                font-family: 'Nunito', 'sans serif';
+                font-weight: 600;
+                cursor: pointer;
+                &:hover{
+                    color: #05a583;
+                    transition: 0.3s;
+                    scale: 0.95;
+                }
+                &:not(:hover){
+                    transition: 0.3s;
+                }
+            }
+            @media screen and (max-width: 700px) {
+                display: none;
+            }
+            .nav_button{
+                border: 1px solid #05e4b3;
+                padding: 7px 15px;
+                border-radius: 5px;
+                &:hover{
+                    color: #05a583;
+                    background-color: #3ff8d02b;
+                    transition: 0.3s;
+                    scale: 0.95;
+                }
+                &:not(:hover){
+                    transition: 0.3s;
+                }
+            }
+        }
+    }
+}
