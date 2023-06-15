@@ -43,7 +43,7 @@ export default function Navbar() {
             Socials
           </div>
           <a
-            href="https://pdfhost.io/v/Glp.O1ucn_OSHAS_RESUME_LATEST"
+            href="https://drive.google.com/file/d/1x7qGFvqYNHSFvI_3TPbGrcHhOisC4__3/view?usp=drive_link"
             target="_blank"
             className="link"
           >

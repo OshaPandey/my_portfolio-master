@@ -25,11 +25,11 @@ export default function Header() {
           <div className="top_container">
             <div className="top_text">Hello, I am</div>
             <div className="middle_text">Osha Pandey</div>
-            <div className="bottom_text">Amazing employee to be</div>
+            <div className="bottom_text">I bridge ideas and reality with code.</div>
             <div className="down_text">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-              illum sunt alias consequatur impedit iste cum atque aliquid
-              officiis voluptatibus incidunt voluptatem vitae.
+            Passionate web developer and software engineer, transforming code into amazing creations. 
+            Crafting user-friendly websites, developing seamless software solutions, pushing boundaries.
+             Always up for a challenge.
             </div>
           </div>
           <div className="middle_container">
@@ -40,7 +40,7 @@ export default function Header() {
         </div>
         <div className="right_container">
           <img
-            src="https://res.cloudinary.com/dbzzj25vc/image/upload/v1677732750/Osha/WhatsApp_Image_2023-03-02_at_10.22.12_AM_oscyay.jpg"
+            src="https://res.cloudinary.com/dakac0rtz/image/upload/v1679483033/Osha_Picture_zoomed_w54muj.jpg"
             alt="header-img"
             className=""
           />

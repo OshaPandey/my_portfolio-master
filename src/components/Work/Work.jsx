@@ -17,7 +17,7 @@ export default function Work() {
             </div>
             <div className="work_items_title">Web Developer</div>
             <div className="work_items_content">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Crafting Digital Experiences, One Line at a Time
             </div>
           </div>
 
@@ -30,7 +30,7 @@ export default function Work() {
             </div>
             <div className="work_items_title">Data Analyst</div>
             <div className="work_items_content">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Unlocking Insights, Empowering Decisions.
             </div>
           </div>
 
@@ -43,7 +43,7 @@ export default function Work() {
             </div>
             <div className="work_items_title">ML Engineer</div>
             <div className="work_items_content">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Harnessing Data, Empowering Intelligence.
             </div>
           </div>
         </div>
