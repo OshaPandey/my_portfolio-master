@@ -80,8 +80,8 @@ export default function Project() {
         </div>
         <div className="dots__container">
             <span className={(slider === 0) ? "dot active" : "dot"} onClick={() => setSlider(0)} ></span>
-            <span className={(slider === 1) ? "dot active" : "dot"} onClick={() => setSlider(1)}></span>
-            <span className={(slider === 2) ? "dot active" : "dot"} onClick={() => setSlider(2)}></span>
+            {/* <span className={(slider === 1) ? "dot active" : "dot"} onClick={() => setSlider(1)}></span>
+            <span className={(slider === 2) ? "dot active" : "dot"} onClick={() => setSlider(2)}></span> */}
         </div>
       </div>
     </div>

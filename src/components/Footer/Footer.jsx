@@ -34,7 +34,7 @@ export default function Footer() {
             </a>
             <a
               className="link"
-              href="https://leetcode.com/oshapandey/"
+              href={`mailto:osha.pandey8@gmail.com`}
               target="_blank"
             >
               <SiGmail className="icon" />
