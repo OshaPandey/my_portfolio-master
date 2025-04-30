@@ -15,12 +15,14 @@ export default function Footer() {
               className="link"
               href="https://leetcode.com/oshapandey/"
               target="_blank"
+              rel="noreferrer"
             >
               <SiLeetcode className="icon" />
             </a>
             <a
               className="link"
               target="_blank"
+              rel="noreferrer"
               href="https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=false&heroEntityKey=urn%3Ali%3Afsd_profile%3AACoAADO8MAUB_0aaoKXh07cIlQMMw8gpMV1LlwM&keywords=osha%20pandey&origin=RICH_QUERY_SUGGESTION&position=0&searchId=b362c12a-830a-42b2-a629-842a2925621d&sid=iYh"
             >
               <BsLinkedin className="icon" />
@@ -29,6 +31,7 @@ export default function Footer() {
               className="link"
               href="https://github.com/OshaPandey"
               target="_blank"
+              rel="noreferrer"
             >
               <AiFillGithub className="icon" />
             </a>
@@ -36,6 +39,7 @@ export default function Footer() {
               className="link"
               href={`mailto:osha.pandey8@gmail.com`}
               target="_blank"
+              rel="noreferrer"
             >
               <SiGmail className="icon" />
             </a>
