@@ -35,7 +35,7 @@ export default function Header() {
           </div>
           <div className="middle_container">
             <div className="button" onClick={() => scroll1(4)}>
-              Let's Chat
+              Let's Connect!
             </div>
           </div>
         </div>
