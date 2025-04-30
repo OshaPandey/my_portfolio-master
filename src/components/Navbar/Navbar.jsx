@@ -26,25 +26,22 @@ export default function Navbar() {
     <div className={`navbar`}>
       <div className="navbar_container">
         <div className="left_container">
-          <img
+          {/* <img
             onClick={() => scroll1(0)}
             src="https://res.cloudinary.com/dbzzj25vc/image/upload/v1677691570/Osha/zyro-image_1_vs7kgv.png"
             alt="logo"
-          />
+          /> */}
         </div>
         <div className="right_container">
           <div className="nav_items" onClick={() => scroll1(1)}>
             About me
           </div>
-          <div className="nav_items" onClick={() => scroll1(2)}>
-            Projects
-          </div>
           <div className="nav_items" onClick={() => scroll1(3)}>
             Socials
           </div>
           <a
-            href="https://drive.google.com/file/d/1x7qGFvqYNHSFvI_3TPbGrcHhOisC4__3/view?usp=drive_link"
-            target="_blank"
+            href="https://drive.google.com/file/d/1-am7VYB3Sh56yXlFwgGkDWNqAC1zfgZ_/view?usp=sharing"
+            target="blank"
             className="link"
           >
             <div className="nav_items nav_button">Resume</div>

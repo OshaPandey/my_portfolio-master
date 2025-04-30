@@ -11,13 +11,13 @@ export default function Work() {
           <div className="work_items">
             <div className="work_items_logo">
               <img
-                src="https://res.cloudinary.com/dbzzj25vc/image/upload/v1677503688/Osha/web-development-svgrepo-com_1_d8pne2.svg"
+                src="https://res.cloudinary.com/dakac0rtz/image/upload/v1746024414/data-scientist_zygrei.png"
                 alt="pls"
               />
             </div>
-            <div className="work_items_title">Web Developer</div>
+            <div className="work_items_title">Data Scientist</div>
             <div className="work_items_content">
-            Crafting Digital Experiences, One Line at a Time
+            Mimicing human brain
             </div>
           </div>
 
